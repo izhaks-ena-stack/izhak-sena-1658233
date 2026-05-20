@@ -1,4 +1,3 @@
-// Dados de cards
 const cards = [
   {
     id: 1,
@@ -26,7 +25,6 @@ const cards = [
   }
 ];
 
-// Função para renderizar cards no HTML
 function renderCards() {
   const container = document.getElementById("cards-container");
   
